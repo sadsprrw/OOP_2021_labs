@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceShop>
+    <!--1 to 10 repetitions:-->
+    <Device>
+        <id>1</id>
+        <name>IntelCore I7</name>
+        <origin>US</origin>
+        <price>1000</price>
+        <critical>true</critical>
+
+        <types>
+            <peripheral>true</peripheral>
+            <energyConsumption>6</energyConsumption>
+            <cooler>true</cooler>
+            <group>Multimedia</group>
+            <port>USB</port>
+        </types>
+    </Device>
+
+    <Device>
+        <id>2</id>
+        <name>Sven S-50</name>
+        <origin>China</origin>
+        <price>100</price>
+        <critical>true</critical>
+
+        <types>
+            <peripheral>true</peripheral>
+            <energyConsumption>15</energyConsumption>
+            <cooler>false</cooler>
+            <group>Sound</group>
+            <port>USB</port>
+        </types>
+    </Device>
+</DeviceShop>
